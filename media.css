@@ -1,0 +1,271 @@
+@media (max-width:1200px){
+  .content{
+    width: 35%;
+  }
+  .logo{
+    margin-left: 5vw;
+  }
+  .nav-bar{
+    margin-right: 3vw;
+   
+  }
+  a{
+    font-size: 12px;
+  }
+  .content h1{
+    font-size: 30px;
+  }
+  .photo{
+    width: 40%;
+    margin-left: 5vw;
+  }
+    .photo img{
+        padding-top: 10vh;
+    width: 320px;
+   } 
+   .section{
+    height: 40vh;
+   }
+   .photo2 img{
+    width: 400px;
+   }
+   .photo2 {
+    margin-left: 2vw;
+   }
+   .sec-content{
+    margin-left: 3vw;
+   }
+   .sec-content p{
+    font-size: 14px;
+    line-height: 1.3rem;
+   }
+   .sec-content h2{
+    font-size: 30px;
+   }
+   .about h1{
+    font-size: 25px;
+   }
+   .about{
+    margin-top: 5vh;
+   }
+   .services{
+    padding: 6vh 10vw;
+   }
+   .services p{
+    font-size: 16px;
+   }
+   .facts-area{
+    margin-top: 5vh;
+   }
+   .projects{
+    margin-top: 5vh;
+   }
+   .Profile h1{
+    font-size: 30px;
+   }
+   .lists{
+    margin-top: 4vh;
+   }
+   .projects-1{
+    width: 50%;
+   }
+   .client h1{
+    font-size: 30px;
+    
+   }
+   .client p {
+    text-align: center;
+   }
+   .message-1{
+    width: 40vw;
+    height: 25vh;
+   }
+   .message-1-content{
+    padding: 3px 10px;
+   }
+   .message-1-content p{
+    font-size: 14px;
+    line-height: 1.3rem;
+   }
+   .plan-p h1{
+    font-size: 30px;
+   }
+   .plan-m{
+    width: 80%;
+    display: grid;
+   flex-wrap: wrap;
+   grid-template-columns: 2fr 2fr; 
+   }
+   .plan-1{
+     width: 100%;
+   }
+  .blog-p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2vw;
+  }
+  .blog-1 img{
+    width: 250px;
+  }
+  .blog-1 h3 {
+    font-size: 17px;
+  }
+  .blog-1 p{
+    font-size: 14px;
+  }
+  .labels{
+    height: 40vh;
+  }
+  .labels-con{
+    margin-left: 8vw;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+  }
+ .labels-1{
+  width: 25%;
+ }
+ footer{
+  height: 70vh;
+ }
+ .footer-content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  margin-left: 2vw;
+ }
+ .footer-about{
+  width:50%;
+ }
+ .footer-about p {
+  font-size: 12px;
+ }
+ .footer-newsletter{
+  width: 60%;
+ /* margin-left: -50px; */
+ }
+ .footer-newsletter p{
+  font-size: 12px;
+ }
+ .footer-newsletter input{
+  width: 150px;
+ }
+ .follow{
+  margin-left: 0vw;
+ }
+}
+@media (max-width:789px){
+  .nav-bar{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+  }
+  .logo{
+    margin-left: 0vw;
+  }
+  .showcase{
+  flex-direction: column;
+  height: 100vh;
+  }
+  .content{
+    margin-left: 0vw;
+    text-align: center;
+    width: 100%;
+   
+  }
+  a.secodary-btn{
+   margin: auto;
+  }
+  .photo{
+    width: 100%;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  .section{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    margin-top: 5vh;
+  }
+  .photo2{
+   
+    width: 100%;
+  }
+  .sec-content{
+    width: 100%;
+  }
+  .sec-content .secodary-btn{
+    margin: auto;
+  }
+  .services{
+    width: 80%;
+  }
+  .services-1{
+    width: 50%;
+    margin-top: 5vh;
+  }
+  .services-1 p{
+    font-size: 14px;
+  }
+  .facts-area{
+    flex-direction: column;
+  }
+  .projects-content{
+    width: 80%;
+  }
+  .projects-1{
+    width: 100%;
+  }
+  .projects-1 img{
+    height: 350px;
+    width:350px ;
+  }
+  .client-fed{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .message-1{
+    margin-left: -0vw;
+    width: 100%;
+    margin-top: 5vh;
+  }
+  .plan-m{
+    grid-template-columns: 1fr;
+  }
+  .blog{
+    margin-top: 5vh;
+    height: auto;
+  }
+  .blog-p{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .blog-1 img{
+    width: 90%;
+  }
+  .labels{
+    height: 50vh;
+  }
+  .labels-1{
+    width: 40%;
+  }
+  .footer-content{
+    
+    display: grid;
+    
+    grid-template-columns: 1fr;
+  }
+  .footer-newsletter{
+    margin-left: 0vw;
+  }
+}
